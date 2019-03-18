@@ -1,24 +1,35 @@
 import java.io.*;
 import java.util.*;
-
-public class Prime {
-
-    public static void main(String[] args) {
-
-intnum = 29;
-boolean flag = false;
-for(inti = 2; i<= num/2; ++i)
+public class Prime
+{
+    public static void main(String[] args) 
+    {
+        Scanner s=new Scanner(System.in);
+        int n=s.nextInt();
+        int flag=0;
+        for(int i=2;i=n/2;i++)
         {
-            // condition for nonprime number
-if(num % i == 0)
+            if(n%i==0)
             {
-                flag = true;
+                flag=1;
                 break;
             }
         }
-
-        if (!flag)
-System.out.println(num + " is a prime number.");
+        if(n==1)
+        {
+           System.out.println("neither composite nor prime");
+        }
         else
-System.out.println(num + " is not a prime number.");
+        {
+            if(flag==0);
+            {
+                System.out.println("yes");
+            }
+            else
+            {
+                System.out.println("no");
+            }
+        }
     }
+}
+
