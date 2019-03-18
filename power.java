@@ -1,22 +1,20 @@
 import java.io.*;
 import java.util.*;
-
-public class Power {
-
-    public static void main(String[] args) {
-
-int base = 3, exponent = 4;
-
-        long result = 1;
-
-        while (exponent != 0)
+class PowerNumber
+{
+    public static void main(String args[])
+    {
+        Scanner s=new Scanner(System.in);
+        int num=s.nextInt();
+        int e=s.nextInt();
+        int pow=1;
+        while(e!=0)
         {
-            result *= base;
-            --exponent;
+            pow=pow*num;
+            e--;
         }
-
-System.out.println("Answer = " + result);
+        System.out.println(power);
     }
-}	
+}
 
-
+   
