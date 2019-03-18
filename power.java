@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-class PowerNumber
+class Power
 {
     public static void main(String args[])
     {
@@ -13,7 +13,7 @@ class PowerNumber
             pow=pow*num;
             e--;
         }
-        System.out.println(power);
+        System.out.println(pow);
     }
 }
 
