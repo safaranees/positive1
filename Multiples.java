@@ -10,7 +10,7 @@ class Multiples
       for(int i=1;i<=n;i++)
       {
          m=i*n;
-         System.out.println(m);
+         System.out.println(m+" ");
       }
    }
 }
