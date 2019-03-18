@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-public class Prime
+class Prime
 {
     public static void main(String[] args) 
     {
