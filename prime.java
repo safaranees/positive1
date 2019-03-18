@@ -5,31 +5,22 @@ public class Prime
     public static void main(String[] args) 
     {
         Scanner s=new Scanner(System.in);
-        int n=s.nextInt();
-        int flag=0;
-        for(int i=2;i=n/2;i++)
+        int num=s.nextInt();
+        int p=0;
+        for(int i=1;i<=num;i++)
         {
-            if(n%i==0)
+            if(num%i==0)
             {
-                flag=1;
-                break;
+                p++;
             }
         }
-        if(n==1)
+        if(p==2)
         {
-           System.out.println("neither composite nor prime");
+            System.out.println("yes");
         }
         else
         {
-            if(flag==0);
-            {
-                System.out.println("yes");
-            }
-            else
-            {
-                System.out.println("no");
-            }
+            System.out.println("no");
         }
     }
 }
-
