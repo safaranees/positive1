@@ -1,19 +1,21 @@
- import java.io.*;
-
-class AllEvenNum{
-  public static void main(String[] args) {
-  try{
-  BufferedReader br1 = new BufferedReader(new InputStreamReader(System.in));
-  System.out.println("Enter number : ");
-  int num = Integer.parseInt(br1.readLine());
-  System.out.println("Even Numbers:");
-  for (int i=1;i <=num ; i++){
-  if(i%2==0 ){
-  System.out.print(i+",");
-  }
-  }
-  }
-  catch(Exception e){}
-  
-  }
+import java.io.*;
+import java.util.*;
+public class Prime
+{
+    public static void main(String[] args) 
+    {
+      Scanner num=new Scanner(System.in);
+      int a=num.nextInt();
+      int b=num.nextInt();
+     int c=a+1;
+     int d=b-1;
+     for(int i=c;i<=d;i++)
+     {
+      if(i%2==0)
+      {
+       System.out.println(i);
+      }
+     }
+    }
 }
+
