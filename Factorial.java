@@ -13,7 +13,7 @@ class Factorial
 		}
 		else
 		{
-			for(int i=`1;i<=n;i++)
+			for(int i=1;i<=n;i++)
 			{
 				fact=fact*i;
 			}
