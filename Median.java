@@ -1,6 +1,6 @@
 import java.util.*;
  
-class Median
+public class Median
 {
     // Function for calculating mean
     public static double findMean(int a[], int n)
