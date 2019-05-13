@@ -1,6 +1,6 @@
 import java.util.*;
  
-class GFG
+class Median
 {
     // Function for calculating mean
     public static double findMean(int a[], int n)
@@ -28,11 +28,15 @@ class GFG
     // Driver program
     public static void main(String args[])
     {
-        int a[] = { 1, 3, 4, 2, 7, 5, 8, 6 };
+        Scanner s=new Scanner(System.in);
+        int n1=s.nextInt();
+        int a[] = new int[5];
+        for(int i=0;i<n1;i++)
+        {
+            	a[i]=s.nextInt();
+        }
         int n = a.length;
-System.out.println("Mean = " + findMean(a, n)); 
+
         System.out.println("Median = " + findMedian(a, n)); 
     }
 }
- 
-
