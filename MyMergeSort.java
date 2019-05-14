@@ -64,7 +64,7 @@ merge(arr, beg, mid, end);
 public static void main(String args[])
 {
 	Scanner s=new Scanner (System.in);
-	int arr[]=new int[10];
+	int arr[]=new int[5];
 	int n=s.nextInt();
 	for(int i=0;i<n;i++)
 	{
